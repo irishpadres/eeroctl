@@ -90,7 +90,7 @@ jobs:
 
       - name: 🚀 Run semantic-release
         id: release
-        uses: fulviofreitas/workflow-arsenal/.github/actions/semantic-release@2087aa01c13f842fc566101ceeb9a4a49ec2a370 # master
+        uses: fulviofreitas/workflow-arsenal/.github/actions/semantic-release@64cd305ccf1cb9991247eb3c0bd7c0b513c6a92a # master
         with:
           github-token: ${{ steps.app-token.outputs.token }}
           dry-run: ${{ github.event.inputs.dry_run || 'false' }}

@@ -25,7 +25,7 @@ jobs:
     # needs read access.
     permissions:
       contents: read
-    uses: fulviofreitas/workflow-arsenal/.github/workflows/reusable-metrics.yml@2087aa01c13f842fc566101ceeb9a4a49ec2a370 # master
+    uses: fulviofreitas/workflow-arsenal/.github/workflows/reusable-metrics.yml@64cd305ccf1cb9991247eb3c0bd7c0b513c6a92a # master
     with:
       repo: eeroctl
       branch: master
